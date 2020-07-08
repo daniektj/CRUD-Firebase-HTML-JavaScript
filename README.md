@@ -1,5 +1,5 @@
 # CRUD-Firebase-HTML-JavaScript
-CRUD hecho con HTML y JavaScript Vanilla con Base de datos de Firebase
+CRUD hecho con HTML y JavaScript Vanilla con Base de datos de Firebase, todo basado en el tutorial de FAZT pero sin el uso de BOOTSTRAP.
 
 **Link** https://daniektj.github.io/CRUD-Firebase-HTML-JavaScript/
 
