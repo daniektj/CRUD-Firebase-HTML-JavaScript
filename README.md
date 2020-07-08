@@ -9,4 +9,4 @@ CRUD hecho con HTML y JavaScript Vanilla con Base de datos de Firebase
 
 ## Resultado y enlace directo.
 
-![](imagenes/screenshot.png)
+![](screenshot.png)
