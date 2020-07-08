@@ -5,6 +5,7 @@ CRUD hecho con HTML y JavaScript Vanilla con Base de datos de Firebase
 
 ## Características
 * Se uso de base de datos de **Firebase** 
+* Todas las funciones basicas de un **CRUD** 
 
 
 ## Resultado y enlace directo.
