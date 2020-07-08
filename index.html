@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase Firestore CRUD con Javascript y HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <div class="container">
+
+        <form class="form" id="task-form">
+
+            <div class="form-container">
+                <div class="form-group">
+                    <input type="text" id="task-title" class="form-control" class="Task Title" placeholder="Task Title" autofocus>
+                </div>
+        
+                <div class="form-group">
+                    <textarea id="task-description" rows="3" class="form-control" placeholder="Task Description"></textarea>
+                </div>
+                
+                <div class="botones">
+                    <button class="button-01" id="btn-task-form">Guardar</button>
+                    <div id="btn-cancelar">
+
+                    </div>
+                </div>
+            </div>
+
+            
+        </form>
+        <div class="sub-container" id="tasks-container">
+    
+        </div>
+    </div>
+        
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyB_EPSESVqXvo65Cj7G2O2ZAQmxNuqACqA",
+        authDomain: "daniek-crud.firebaseapp.com",
+        databaseURL: "https://daniek-crud.firebaseio.com",
+        projectId: "daniek-crud",
+        storageBucket: "daniek-crud.appspot.com",
+        messagingSenderId: "531025386699",
+        appId: "1:531025386699:web:3547856a73807186458f4e",
+        measurementId: "G-Y6RTZ9F60G"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+    </script>
+
+    <script src="index.js"></script>    
+</body>
+</html>
